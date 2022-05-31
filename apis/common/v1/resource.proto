@@ -2,9 +2,9 @@ syntax = "proto3";
 
 package common.v1;
 
-import "apis/common/v1/policies.proto";
-import "apis/common/v1/condition.proto";
-import "apis/common/v1/health.proto";
+import "github.com/yndd/ndd_runtime/apis/common/v1/policies.proto";
+import "github.com/yndd/ndd_runtime/apis/common/v1/condition.proto";
+import "github.com/yndd/ndd_runtime/apis/common/v1/health.proto";
 
 option go_package = "github.com/yndd/ndd_runtime/apis/common/v1";
 
