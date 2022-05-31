@@ -11,9 +11,10 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/spf13/afero v1.6.0
 	github.com/yndd/nddp-system v0.1.6
+	github.com/yndd/registrator v0.0.19
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac
-	k8s.io/api v0.22.2
+	k8s.io/api v0.23.6
 	k8s.io/apimachinery v0.24.1
-	k8s.io/client-go v0.22.2
-	sigs.k8s.io/controller-runtime v0.9.3
+	k8s.io/client-go v0.23.5
+	sigs.k8s.io/controller-runtime v0.11.2
 )
